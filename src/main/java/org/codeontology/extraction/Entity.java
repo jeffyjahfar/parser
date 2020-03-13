@@ -19,8 +19,8 @@ along with CodeOntology.  If not, see <http://www.gnu.org/licenses/>
 
 package org.codeontology.extraction;
 
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.Resource;
 
 public interface Entity<E> {
 

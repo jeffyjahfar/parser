@@ -19,7 +19,7 @@ along with CodeOntology.  If not, see <http://www.gnu.org/licenses/>
 
 package org.codeontology.extraction;
 
-import com.hp.hpl.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Literal;
 import org.codeontology.CodeOntology;
 import org.codeontology.Ontology;
 import spoon.reflect.declaration.CtNamedElement;

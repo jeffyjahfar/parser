@@ -21,7 +21,7 @@ package org.codeontology.extraction.declaration;
 
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Table;
-import com.hp.hpl.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.RDFNode;
 import org.codeontology.CodeOntology;
 import org.codeontology.Ontology;
 import org.codeontology.extraction.Entity;

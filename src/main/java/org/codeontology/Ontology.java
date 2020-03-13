@@ -19,10 +19,11 @@ along with CodeOntology.  If not, see <http://www.gnu.org/licenses/>
 
 package org.codeontology;
 
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.ModelFactory;
-import com.hp.hpl.jena.rdf.model.Property;
-import com.hp.hpl.jena.rdf.model.Resource;
+
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.Resource;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -38,7 +39,7 @@ public class Ontology {
 
     private static Model ontology() {
         try {
-            File ontology = new File(System.getProperty("user.dir") + "/ontology/CodeOntology.owl");
+            File ontology = new File("C:/UW/Winter2020/CSS600_Independent_study/uml-to-sparql-converter/parser/ontology/CodeOntology.owl");
             FileInputStream reader = new FileInputStream(ontology);
             return ModelFactory.createDefaultModel().read(reader, "");
         } catch (FileNotFoundException e) {

@@ -19,7 +19,7 @@ along with CodeOntology.  If not, see <http://www.gnu.org/licenses/>
 
 package org.codeontology.extraction;
 
-import com.hp.hpl.jena.rdf.model.*;
+import org.apache.jena.rdf.model.*;
 import org.codeontology.Ontology;
 
 import java.io.BufferedWriter;

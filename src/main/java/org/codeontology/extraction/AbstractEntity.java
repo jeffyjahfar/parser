@@ -20,9 +20,9 @@ along with CodeOntology.  If not, see <http://www.gnu.org/licenses/>
 package org.codeontology.extraction;
 
 
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.RDFNode;
-import com.hp.hpl.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.Resource;
 import org.codeontology.Ontology;
 
 public abstract class AbstractEntity<E> implements Entity<E>, Comparable<Entity<?>> {

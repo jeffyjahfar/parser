@@ -19,8 +19,8 @@ along with CodeOntology.  If not, see <http://www.gnu.org/licenses/>
 
 package org.codeontology.extraction.expression;
 
-import com.hp.hpl.jena.rdf.model.Literal;
-import com.hp.hpl.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.RDFNode;
 import org.codeontology.Ontology;
 import org.codeontology.extraction.AbstractEntity;
 import org.codeontology.extraction.support.ExpressionHolderEntity;
